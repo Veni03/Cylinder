@@ -1,0 +1,8 @@
+import math
+r = float(input('Enter r: '))
+h = float(input('Enter h: '))
+ 
+    B = math.pi * r *h
+    Volume = math.pi * r * r * h
+    print('B = ' + str(B))
+    print('V = ' + str(Volume))
